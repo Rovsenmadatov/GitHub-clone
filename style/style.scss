@@ -1,0 +1,56 @@
+@import url('https://fonts.googleapis.com/css2?family=Nanum+Gothic:wght@800&display=swap');
+
+
+@import "navbar";
+@import "hero";
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Nanum Gothic', sans-serif;
+    font-family: 'Poppins', sans-serif;
+    height: 200vh;
+    background-color:#0d1117 ;
+    overflow-x: hidden;
+}
+
+.d-flex{
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.profile-sm{
+    width: 32px;
+    height: 35px;
+    border-radius: 50%;
+    margin-right: 5px;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-b{
+    justify-content: space-between;
+}
+
+
+.active{
+  position: absolute;
+  width: 95px;
+  height: 2px;
+  background-color:#f78166 ;
+  transform: translate(-4px,14px);
+}
+
+@import "responsive";
+
+
+
+
